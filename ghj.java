@@ -38,7 +38,7 @@ static的特点：
 
 class person
 {
-	String name;//成员变量，实例变量。
+	static String name;//成员变量，实例变量。
 	static String country="CN";//静态的成员变量，类变量
 	public static void show()
 	{
