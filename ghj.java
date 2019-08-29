@@ -35,10 +35,11 @@ static的特点：
 	访问出现局限性（静态只能访问静态）
 
 */
-
+//此代码运行会报   错误: 无法从静态上下文中引用非静态 变量 name   错误
+//此代码运行需要在42行前加static
 class person
 {
-	static String name;//成员变量，实例变量。
+	String name;//成员变量，实例变量。
 	static String country="CN";//静态的成员变量，类变量
 	public static void show()
 	{
