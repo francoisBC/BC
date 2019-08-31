@@ -53,6 +53,7 @@ java的说明书通过文档注释完成
 @version v0.1
 
 */
+//要生成文档，类必须是pubilc修饰
 public class tool
 {
 	/**
