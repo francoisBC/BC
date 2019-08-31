@@ -53,8 +53,10 @@ java的说明书通过文档注释完成
 @version v0.1
 
 */
-//要生成文档，类必须是pubilc修饰
-public class tool
+//要生成文档，类必须是pubilc修饰，且此代码中只能有一个class被public，被public的那个class必须与文件名同名
+//写法：javadoc -d -java- -author -version main.java
+
+class tool
 {
 	/**
 	空参数构造函数
